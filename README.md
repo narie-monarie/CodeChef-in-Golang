@@ -1,3 +1,3 @@
-# My CodeChef Practice donr in golang
+# My CodeChef Practice done in golang
 
 from `0-100`
