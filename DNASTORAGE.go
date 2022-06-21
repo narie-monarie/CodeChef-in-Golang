@@ -11,17 +11,16 @@ func solve() {
 	fmt.Scanln(&s)
 	for i := 0; i < input; i += 2 {
 		if s[i] == '0' && s[i+1] == '0' {
-			fmt.Printf("A")
+			fmt.Print("A")
 		} else if s[i] == '0' && s[i+1] == '1' {
-			fmt.Printf("T")
+			fmt.Print("T")
 		} else if s[i] == '1' && s[i+1] == '0' {
-			fmt.Printf("C")
+			fmt.Print("C")
 		} else {
-			fmt.Printf("G")
+			fmt.Print("G")
 		}
 	}
-
-	println()
+	fmt.Println(" ")
 }
 func main() {
 	var t int
